@@ -1,0 +1,204 @@
+#cms_fancybox_single-cms-img-select img {
+	margin-bottom: 5px;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#cms_fancybox_single-cms-img-select img:hover,
+#cms_fancybox_single-cms-img-select img.selected {
+	box-shadow: 1px 1px 6px red;
+}
+
+body .etabs li.tab a {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-size: 12px;
+}
+
+/******   CAPTIONS   ******/
+.tp-caption.dark-light-32 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 300;
+}
+.tp-caption.dark-black-100 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 100px;
+	line-height: 100px;
+	font-weight: 900;
+}
+.tp-caption.dark-light-100 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 100px;
+	line-height: 100px;
+	font-weight: 300;
+}
+.slider-1-cap-line {
+	height:3px;
+	width:100px;
+	background-color: #4b4e53;
+}
+.slider-bg-white-cap {
+	display:none;
+	visibility: hidden;
+}
+/******   CAPTIONS REVO FULL WIDTH  ******/
+.font-white, .font-white a{
+  color:#fff !important;
+}
+.light-72-wide{
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 72px;
+	line-height: 72px;
+	font-weight: 300;
+  letter-spacing:25px;
+  color:#4b4e53;
+}
+.light-69-wide{
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 69px;
+	line-height: 69px;
+	font-weight: 300;
+  letter-spacing:25px;
+  color:#4b4e53;
+}
+.light-60-wide{
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 300;
+  letter-spacing:15px;
+  color:#4b4e53;
+}
+.light-60{
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 300;
+  color:#4b4e53;
+}
+.light-56-wide{
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 56px;
+	line-height: 56px;
+	font-weight: 300;
+  letter-spacing:25px;
+  color:#4b4e53;
+}
+.norm-16-wide{
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 300;
+  letter-spacing:3px;
+  color:#4b4e53;
+}
+.a-100, .a-100 span{
+  font-size:100px;
+  line-height:100px;
+}
+
+
+/*==========  Mobile  ==========*/
+@media only screen and (max-width : 478px) {
+	.slider-bg-white-cap {
+		display:block;
+		visibility:visible;
+		height:240px;
+		width:1500px;
+		background-color: rgba(255,255,255,.9);
+	}
+	.tp-left{
+		left:60px !important;
+	}
+	.tp-caption.center-0-478{
+		left: 50% !important;
+		transform: translateX(-50%) !important;
+		transform: translateZ(0);
+	}
+	.hide-0-736 {
+		display:none;
+		visibility: hidden;
+	}
+	/***** SLIDE 2 Captions	*****/
+	.dark-light-61.tp-resp-24 {
+		top:44%!important;
+	}
+	.dark-light-54.tp-resp-24 {
+		top:49%!important;
+	}
+	.dark-black-63.tp-resp-24 {
+		top:54%!important;
+	}
+	/***** SLIDE 3 Captions	*****/
+	.dark-light-60.tp-resp-24 {
+		top:42%!important;
+	}
+	.dark-black-60.tp-resp-24 {
+		top:47%!important;
+	}
+}
+
+@media only screen and (max-width : 736px){ 
+	.fs16-when-0-736{
+		font-size: 16px !important;
+		line-height: 16px !important;
+	}
+	.fs24-when-0-736 {
+		font-size: 24px !important;
+		line-height: 24px !important;
+	}
+}
+@media only screen and (min-width : 479px) and (max-width : 736px){ 
+	.hide-0-736, .hide-479-736 {
+		display:none !important;
+		visibility: hidden;
+	}
+}
+
+/*****  SLIDE 2   *****/
+.tp-caption.dark-light-61 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 61px;
+	font-weight: 300;
+	letter-spacing:7px;
+}
+.tp-caption.dark-black-63 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 63px;
+	font-weight: 900;
+	letter-spacing:5px;
+}
+.tp-caption.dark-light-54 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 54px;
+	font-weight: 300;
+	letter-spacing:7px;
+}
+
+/*****  SLIDE 3   *****/
+.tp-caption.dark-light-60 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 75px;
+	line-height: 85px;
+	font-weight: 300;
+}
+.tp-caption.dark-black-60 {
+	color:#4b4e53;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-size: 75px;
+	line-height: 85px;
+	font-weight: 900;
+}

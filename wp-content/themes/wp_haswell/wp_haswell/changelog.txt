@@ -1,0 +1,17 @@
+2016.01.15 - Version 1.0.8
+- Fixed Custom css Tab on theme option
+    Changed files
+        - inc/static.css.php
+        - inc/dynamic.css.php
+- Fixed Use Custom link option on Single Image VC Shortcode
+	Changed files
+		- vc_template/vc_single_image.php
+
+2015.12.23 - Version 1.0.7
+- Fixed responsive on phone - issue not padding in phone
+    Changed files
+        - vc_param/vc_rows.php
+        - vc_param/vc_column.php
+        - vc_param/vc_column_inner.php
+        - vc_template/vc_row.php
+        - assets/scss/structure.scss
